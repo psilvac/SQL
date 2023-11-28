@@ -16,8 +16,8 @@ WITH CRITICA AS (
 )
 ,CONSUMOS AS (
 	SELECT      /*+ Materialize */	
-				CD_EMPRESA,
-				--ID,
+		    CD_EMPRESA,
+		    --ID,
 	            NIS,
 	            CONTRATO,
 	            --PERIODO_CONSUMO,
